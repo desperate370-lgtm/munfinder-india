@@ -1,0 +1,6 @@
+pages/Home.tsx
+pages/ListingPage.tsx
+pages/DetailPage.tsx
+pages/SubmitMUN.tsx
+pages/AdminDashboard.tsx
+pages/Profile.tsx
