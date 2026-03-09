@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ferrari — The Art of Speed</title>
+    <meta name="description" content="Ferrari luxury performance experience — cinematic design, innovation, racing heritage, and bespoke configurator." />
+    <meta name="theme-color" content="#0A0A0A" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Orbitron:wght@500;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="scanline" aria-hidden="true"></div>
+
+    <header class="navbar" id="navbar">
+      <a class="logo" href="#home" aria-label="Ferrari home">FERRARI</a>
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a href="#home">Home</a>
+        <a href="#models">Models</a>
+        <a href="#innovation">Innovation</a>
+        <a href="#racing">Racing</a>
+        <a href="#experience">Experience</a>
+        <a href="#store">Store</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" aria-label="Search">⌕</button>
+        <button class="icon-btn" aria-label="Menu">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <video class="hero-video" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=1920&auto=format&fit=crop">
+          <source src="https://player.vimeo.com/external/449830657.sd.mp4?s=d17ebb00a57182094ea244ad4c489489c260bb58&profile_id=165&oauth2_token_id=57447761" type="video/mp4" />
+        </video>
+        <div class="hero-gradient" aria-hidden="true"></div>
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-content reveal" id="heroContent">
+          <p class="kicker">Ferrari Performance Atelier</p>
+          <h1>The Art of Speed.</h1>
+          <p class="subtitle">Experience engineering perfection crafted in Maranello.</p>
+          <div class="cta-group">
+            <a class="btn btn-primary" href="#models">Explore Models</a>
+            <a class="btn btn-ghost" href="#configurator">Configure Your Ferrari</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="models" class="section reveal">
+        <div class="section-head">
+          <h2>Flagship Models</h2>
+          <p>Precision silhouettes engineered for emotion, speed, and dominance.</p>
+        </div>
+        <div class="models-grid">
+          <article class="card model-card"><img loading="lazy" src="https://images.unsplash.com/photo-1611821064430-0d40291d0f0b?q=80&w=1400&auto=format&fit=crop" alt="Ferrari SF90" /><h3>Ferrari SF90</h3><p>986 hp • 340 km/h</p><a href="#" class="inline-link">Explore Model</a></article>
+          <article class="card model-card"><img loading="lazy" src="https://images.unsplash.com/photo-1544829099-b9a0c5303bea?q=80&w=1400&auto=format&fit=crop" alt="Ferrari 296 GTB" /><h3>Ferrari 296 GTB</h3><p>819 hp • 330 km/h</p><a href="#" class="inline-link">Explore Model</a></article>
+          <article class="card model-card"><img loading="lazy" src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=1400&auto=format&fit=crop" alt="Ferrari Purosangue" /><h3>Ferrari Purosangue</h3><p>715 hp • 312 km/h</p><a href="#" class="inline-link">Explore Model</a></article>
+          <article class="card model-card"><img loading="lazy" src="https://images.unsplash.com/photo-1493238792000-8113da705763?q=80&w=1400&auto=format&fit=crop" alt="Ferrari Roma" /><h3>Ferrari Roma</h3><p>612 hp • 320 km/h</p><a href="#" class="inline-link">Explore Model</a></article>
+          <article class="card model-card"><img loading="lazy" src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1400&auto=format&fit=crop" alt="Ferrari Daytona SP3" /><h3>Ferrari Daytona SP3</h3><p>829 hp • 340 km/h</p><a href="#" class="inline-link">Explore Model</a></article>
+        </div>
+      </section>
+
+      <section id="innovation" class="section performance reveal">
+        <div class="performance-panel card">
+          <h2>Performance Intelligence</h2>
+          <div class="metric-row"><span>0-100 km/h</span><strong>2.5s</strong></div><div class="meter"><span style="--value: 92%"></span></div>
+          <div class="metric-row"><span>Top Speed</span><strong>340 km/h</strong></div><div class="meter"><span style="--value: 95%"></span></div>
+          <div class="metric-row"><span>Horsepower</span><strong>1000+ hp</strong></div><div class="meter"><span style="--value: 98%"></span></div>
+        </div>
+        <div class="performance-visual card parallax-item">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1592198084033-aade902d1aae?q=80&w=1600&auto=format&fit=crop" alt="Ferrari illuminated performance profile" />
+        </div>
+      </section>
+
+      <section id="racing" class="section racing reveal">
+        <div class="section-head">
+          <h2>Racing Heritage</h2>
+          <p>Built on legacy. Proven under pressure. Designed to win.</p>
+        </div>
+        <div class="timeline">
+          <article class="card"><h3>1947</h3><p>Ferrari founded in Maranello.</p></article>
+          <article class="card"><h3>16</h3><p>Constructors Championships.</p></article>
+          <article class="card"><h3>240+</h3><p>Grand Prix Wins.</p></article>
+        </div>
+      </section>
+
+      <section id="experience" class="section reveal">
+        <div class="section-head"><h2>Ferrari Experience</h2><p>Story-led immersion for owners and enthusiasts.</p></div>
+        <div class="exp-grid">
+          <article class="card parallax-item"><img loading="lazy" src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=1200&auto=format&fit=crop" alt="Ferrari Factory Experience" /><h3>Factory Experience</h3></article>
+          <article class="card parallax-item"><img loading="lazy" src="https://images.unsplash.com/photo-1517524206127-48bbd363f3d7?q=80&w=1200&auto=format&fit=crop" alt="Track Driving Experience" /><h3>Track Driving Experience</h3></article>
+          <article class="card parallax-item"><img loading="lazy" src="https://images.unsplash.com/photo-1484136063621-24f3f004a58c?q=80&w=1200&auto=format&fit=crop" alt="Ferrari Owners Club" /><h3>Ferrari Owners Club</h3></article>
+        </div>
+      </section>
+
+      <section id="configurator" class="section reveal">
+        <div class="section-head"><h2>Configurator Preview</h2><p>Craft a Ferrari that reflects your exact identity.</p></div>
+        <div class="config-grid card">
+          <div class="car-stage" id="configCar" aria-label="Rotating 3D Ferrari preview"></div>
+          <div class="config-panel">
+            <p>Paint</p>
+            <div class="swatches">
+              <button class="swatch active" data-color="#C00000" aria-label="Ferrari Red"></button>
+              <button class="swatch" data-color="#0A0A0A" aria-label="Nero Black"></button>
+              <button class="swatch" data-color="#AFAFAF" aria-label="Silver"></button>
+            </div>
+            <label for="wheelSelect">Wheels</label>
+            <select id="wheelSelect"><option>Forged Silver</option><option>Carbon Black</option><option>Gold Sport</option></select>
+            <a class="btn btn-primary" href="#">Start Your Custom Build</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="store" class="section reveal">
+        <div class="section-head"><h2>Ferrari Store</h2><p>Designed essentials inspired by motorsport DNA.</p></div>
+        <div class="store-grid">
+          <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1000&auto=format&fit=crop" alt="Ferrari jacket" /><h3>Racing Jacket</h3></article>
+          <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=1000&auto=format&fit=crop" alt="Ferrari cap" /><h3>Signature Cap</h3></article>
+          <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1000&auto=format&fit=crop" alt="Ferrari watch" /><h3>Chronograph Watch</h3></article>
+          <article class="card"><img loading="lazy" src="https://images.unsplash.com/photo-1554744512-d6c603f27c54?q=80&w=1000&auto=format&fit=crop" alt="Ferrari scale model" /><h3>Scale Model</h3></article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div><h4>Models</h4><p>SF90 • 296 GTB • Roma</p></div>
+      <div><h4>Racing</h4><p>Scuderia • F1 • Corse Clienti</p></div>
+      <div><h4>Company</h4><p>About • Careers • Newsroom</p></div>
+      <div><h4>Legal</h4><p>Privacy • Terms • Cookies</p></div>
+      <form class="newsletter"><label for="email">Newsletter</label><input id="email" type="email" placeholder="you@example.com" /></form>
+      <p class="copyright">© 2026 Ferrari. Crafted in Maranello.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
